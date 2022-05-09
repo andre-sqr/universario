@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="api.css">
+    <title>Universário</title>
+</head>
+<body>
+    <header>
+        <!-- TODO: adicionar imagem do logo -->
+        <img src=""> 
+        <h1>Universário</h1>
+    </header>
+    
+    <div class="container-input">
+        <div class="submit-div">
+            <label for="birthday">Digite sua data de nascimento:</label>
+            <input type="date" name="birthday" id="birthdayInput">
+            <button class="submit-button" id="submit">Confirmar</button>
+        </div>
+        
+        <div class="container-media">
+            <div class="container-media_imgvid">
+                <div id="imgDiv" class="imgDiv">
+                    <img src="" class="img-api" id="img-api">
+                </div>
+                <div id="vidDiv" class="vidDiv">
+                    <iframe class="vid-api" id="vid-api" src="">
+                    </iframe>
+                </div>
+            </div>
+            <div class="container-media_text">
+            <h2 class="container-media_h2" id="container-media_h2"></h2>
+            <div class="container-media_card">
+            <p class="container-media_p" id="container-media_p"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./api.js"></script>
+</body>
+</html>

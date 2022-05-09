@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,21,142,1) 59%, rgba(172,103,207,1) 100%);
+}
+
+header {
+    width: 90%;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+header h1 {
+    background: -webkit-linear-gradient(rgb(88, 45, 175), rgb(43, 20, 79));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+header h1:hover {
+    background: -webkit-linear-gradient(rgb(104, 48, 216), rgb(170, 98, 132));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.container-input {
+    width: 80%;
+    min-height: 70vh;
+    max-height: 120vh;
+    margin: 2em;
+    background-color: #303242;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.container-media {
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.container-media_imgvid {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.container-media_text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.vid-api {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.img-api {
+    width: 100%;
+    max-height: 90%;
+}
+
+.imgDiv {
+    display: none;
+}
+
+.vidDiv {
+    display: none;
+}
