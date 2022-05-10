@@ -75,8 +75,7 @@ header h1:hover {
     align-items: center;
     text-align: center;
     width: 47%;
-    height: 100%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .container-media_text {
@@ -93,15 +92,22 @@ header h1:hover {
     background-color: #FFFFFF;
     color:#000000d2;
     border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.container-media_h2 {
+    margin-top: 2%;
 }
 
 .container-media_p {
     margin-top: 4%;
+    padding: 3%;
 }
 
 .vid-api {
     width: 100%;
     height: auto;
+    max-height: 90%;
     border-radius: 10px;
     border: none;
 }
